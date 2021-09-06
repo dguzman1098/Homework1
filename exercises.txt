@@ -1,0 +1,40 @@
+#Homework 1 - Diego Guzman
+
+Exercises 1.1.1
+
+1. The first command listed after running git help is clone.
+2. Using the command git help > less.txt, pipes the output of the git help information into the file less.txt
+and you can use the command cat less if you want to view the content inside the file.'
+3. cat ~./config outputs my email and name associated with git.
+
+Excercises 1.2.1
+
+1. The hidden directory is .git
+2. The main Git configuration file is called config
+
+Exercises 1.3.1
+
+added foo and bar files to github repo
+
+1. if you run git commit -am "Add baz" it returns
+[main] 725431e] Add baz
+1 file changed, 0 insertions(+) 0 deletions(-)
+
+
+Exercises 1.5.1
+
+1. git log -p command showed the difference between old index.html file and new index.html
+2. added p tag
+
+Exercise 1,6.1
+
+1. Changed html structure, changed title tag and verified diff.
+
+Exercises 2.2.1
+
+1. Yes, the commits on my github repo match git log
+2. Yes, the diff shows what was changed from old file to the new file
+3. For my celebratory beverage I had a Molson Golden :)
+
+
+
