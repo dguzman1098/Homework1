@@ -3,8 +3,7 @@
 Exercises 1.1.1
 
 1. The first command listed after running git help is clone.
-2. Using the command git help > less.txt, pipes the output of the git help information into the file less.txt
-and you can use the command cat less if you want to view the content inside the file.'
+2. Using the command git help | less, outputs you to a less interface where you can 
 3. cat ~./config outputs my email and name associated with git.
 
 Excercises 1.2.1
@@ -14,9 +13,10 @@ Excercises 1.2.1
 
 Exercises 1.3.1
 
-added foo and bar files to github repo
+Added foo and bar files to github repo
 
-1. if you run git commit -am "Add baz" it returns
+Exercises 1.4.1
+1. If you run git commit -am "Add baz" it returns
 [main] 725431e] Add baz
 1 file changed, 0 insertions(+) 0 deletions(-)
 
@@ -28,7 +28,9 @@ Exercises 1.5.1
 
 Exercise 1,6.1
 
-1. Changed html structure, changed title tag and verified diff.
+changed title, committed the title and verified git log -p change was committed
+Listing 1.6 verified that it is not a valid web page. Verified my curent index.html
+is a valid web page.
 
 Exercises 2.2.1
 
@@ -37,4 +39,35 @@ Exercises 2.2.1
 3. For my celebratory beverage I had a Molson Golden :)
 
 
+Exercises 2.3.1
+1. Added line at the end of readme with a link to github documentation
+2. You don't have to run git add because the file is still in the staging area. We can still make modifcations 
+then commit the changes in the staging area before pushing them to github.
+3. yes, verifying that the link worked.
 
+Exercises 3.1.1
+1. images directory with the image are shown on github repo
+2.No, git log -p shows the full diffs represented by each commit. 
+git log -p doesn't drop you into a less interface. You have to use the command
+git log -p | less and the name of a file you want to output.
+3. commit SHA: 787d0c7397cc579c2f0f5eceda40f6c1442eb03d
+
+Exercises 3.2.1
+1. Commit -am isn't enough because the files are untracked by git. They must first need to be added to the staging area to
+be tracked.
+2.Pushed my commit to github.
+
+Exercise  3.3.2
+
+1. delete about-page branch and confirmed by running git branch to show only the main branch is left.
+2. created a branch using git branch. Without using the -b argument you won't be checked into the 
+branch you created. 
+3. added and committed test-branch to the repository.
+4. Deleted the test branch from the main branch using branch -D which deletes the branch even if the changes are unmerged.
+
+Exercises 3.4.1
+1. Verifying that git checkout -f got rid of the new  file I created.
+2. git checkout --force and git checkout -f both deleted the new filed created.
+Extra Credit: git help checkout shows git checkout -f and --force for the same usage.
+When switching branches, proceed even if the index or the working tree differs from HEAD. This is used to throw away local changes.
+When checking out paths from the index, do not fail upon unmerged entries; instead, unmerged entries are ignored.
