@@ -71,3 +71,5 @@ Exercises 3.4.1
 Extra Credit: git help checkout shows git checkout -f and --force for the same usage.
 When switching branches, proceed even if the index or the working tree differs from HEAD. This is used to throw away local changes.
 When checking out paths from the index, do not fail upon unmerged entries; instead, unmerged entries are ignored.
+
+Collabed with partner (Shafi) to create a branch, make modifications, merge, and pull request.
